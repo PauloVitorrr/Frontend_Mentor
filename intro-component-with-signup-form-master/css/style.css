@@ -104,6 +104,7 @@ button.button-form:hover{
  @media screen and (max-width: 1224px) {
 	main{
 		flex-wrap: wrap;
+		padding: 0 15px;	
 	}
 	 .section-left{
 		text-align: center;
@@ -122,14 +123,10 @@ button.button-form:hover{
 	}
 	.section-right{
 		max-width: 488px;
-		/* height: auto; */
 		display: contents;
 		margin: auto;
 	}
 	.input-form{
 		width: 100%;
-	}
-	@media screen and (max-width: 375px) {
-		
 	}
   }
