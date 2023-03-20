@@ -121,7 +121,7 @@ button.button-form:hover{
 		height: auto;
 	} 
 	 .section-left p{
-		width: 100%;
+		width: 97%;
 	} 
   } 
   
@@ -129,10 +129,14 @@ button.button-form:hover{
 	.text-card{
 		max-width: 100%;
 		text-align: center;
+		margin-bottom: 27px;
 	}
 	.section-right{
 		max-width: 488px;
 		margin: auto;
+	}
+	.section-left h1{
+		font-size: 2em;
 	}
 	.input-form{
 		width: 100%;
