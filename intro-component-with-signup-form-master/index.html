@@ -25,20 +25,24 @@
       <section class="section-right">
         <p class="text-card"><b>Try it free 7 days</b> then $20/mo. thereafter</p>
         <div class="box">
-          <form>
-            <div>
+          <form id="form">
+            <div class="container-input">
               <input class="input-form" type="text" id="first-name" placeholder="First Name">
+              <span class="span-erro ">First Name cannot be empty</span>
             </div>
-            <div>
-              <input class="input-form" type="text" name="last-name" placeholder="Last Name">  
+            <div class="container-input">
+              <input class="input-form" type="text" id="last-name" placeholder="Last Name">
+              <span class="span-active">Last Name cannot be empty</span> 
             </div>
-            <div>
-              <input class="input-form" type="email" name="Email" placeholder="Email adress">
+            <div class="container-input">
+              <input class="input-form" type="email" id="Email" placeholder="Email adress">
+              <span class="span-active">Looks like this is not an email</span>
             </div>
-            <div>
-              <input class="input-form" type="password" name="password" placeholder="Password">
+            <div class="container-input">
+              <input class="input-form" type="password" id="password" placeholder="Password">
+              <span class="span-active">Password cannot be empty</span>
             </div>
-            <div>
+            <div class="container-input">
               <button class="button-form" type="submit">CLAIM YOUR FREE TRIAL</button>
             </div>
             <div>
@@ -48,5 +52,6 @@
         </div>
       </section>  
   </main>
+  <script src="./js/script.js"></script>
 </body>
 </html>
